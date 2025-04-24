@@ -1,12 +1,27 @@
-# React + Vite
+Book Nook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant React app for browsing books, featuring search, filter, "Book of the Day", and a dark mode toggle. Built with Tailwind CSS and React Router.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
 
-## Expanding the ESLint configuration
+- React (with Vite)
+- Tailwind CSS for styling
+- React Router DOM for page routing
+- open library JSON data for book listings
+- Dark Mode using Tailwind and local state
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Folder Structure
+book-nook/ ├── public/ │ └── favicon.svg ├── src/ │ ├── assets/ │ ├── components/ │ │ ├── Header.jsx │ │ ├── BookCard.jsx │ │ ├── BookOfTheDay.jsx │ │ └── ThemeToggle.jsx │ ├── data/ │ │ └── books.json │ ├── pages/ │ │ ├── Home.jsx │ │ └── BookDetails.jsx │ ├── App.jsx │ ├── main.jsx │ └── index.css ├── tailwind.config.js ├── postcss.config.js ├── package.json └── README.md
+
+Getting Started
+1. Clone the Project
+
+```bash
+git clone https://github.com/Mathew-Rym/book-nook.git
+cd book-nook
+npm install
+npm run dev
+npm run build
+npm run preview
+
