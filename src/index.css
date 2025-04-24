@@ -66,3 +66,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  transition: all 0.3s ease;
+}
+.dark body {
+  background-color: #1f2937; /* Tailwind gray-800 */
+  color: white;
+}

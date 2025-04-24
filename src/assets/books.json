@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "summary": "A novel about the American dream.",
+      "authorBio": "Fitzgerald was an American novelist.",
+      "pageCount": 180,
+      "rating": 5,
+      "yearPublished": 1925,
+      "coverImage": "/assets/gatsby.jpg"
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "summary": "A novel about racial injustice in the Deep South.",
+      "authorBio": "Lee was an American novelist.",
+      "pageCount": 281,
+      "rating": 4.5,
+      "yearPublished": 1960,
+      "coverImage": "/assets/mockingbird.jpg"
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "summary": "A novel about totalitarianism and surveillance.",
+      "authorBio": "Orwell was an English novelist.",
+      "pageCount": 328,
+      "rating": 4.8,
+      "yearPublished": 1949,
+      "coverImage": "/assets/1984.jpg"
+    }
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "summary": "A novel about love and social standing.",
+      "authorBio": "Austen was an English novelist.",
+      "pageCount": 279,
+      "rating": 4.6,
+      "yearPublished": 1813,
+      "coverImage": "/assets/pride.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "summary": "A novel about teenage angst and alienation.",
+      "authorBio": "Salinger was an American writer.",
+      "pageCount": 277,
+      "rating": 4.0,
+      "yearPublished": 1951,
+      "coverImage": "/assets/catcher.jpg"
+    }
+  ]
+  
