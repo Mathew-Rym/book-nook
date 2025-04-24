@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useBookSearch } from '../hooks/useBookSearch';
 import { BookOfTheDay } from '../components/BookOfTheDay';
+import { FeaturedBooks } from '../components/FeaturedBookCard';
 import { SearchBar } from '../components/SearchBar';
 import { BookCard } from '../components/BookCard';
 
@@ -29,6 +30,7 @@ export const Home = () => {
   return (
     <div className="home">
       <BookOfTheDay />
+      <FeaturedBooks />
       <SearchBar onSearch={handleSearch} />
       
       <div className="books-grid">
