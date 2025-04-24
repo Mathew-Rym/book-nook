@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { useReadingList } from '../context/ReadingListContext';
 import { useFavorites } from '../context/FavoritesContext';
