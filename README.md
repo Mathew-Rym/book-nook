@@ -1,7 +1,5 @@
 Book Nook - Book Search Application
 
-![BookNook Screenshot](./public/screenshot.png) <!-- Add a screenshot later -->
-
 A React-based book search application that allows users to discover books, save favorites, and maintain a reading list using the Open Library API.
 
 ## Features
